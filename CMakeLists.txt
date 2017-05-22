@@ -10,6 +10,5 @@ set(${CMAKE_PROJECT_NAME}_PORT /dev/ttyUSB0)
 set(${CMAKE_PROJECT_NAME}_SKETCH adafruit_test.ino)
 
 link_directories(${CMAKE_CURRENT_SOURCE_DIR}/libraries)
-set(Adafruit_RA8875_RECURSE True)
 
 generate_arduino_firmware(${CMAKE_PROJECT_NAME})

@@ -1,5 +1,6 @@
-#include <Adafruit_GFX.h>
+#include <Arduino.h>
 #include <Adafruit_RA8875.h>
+#include <Adafruit_GFX.h>
 #include <SPI.h>
 
 #define RA8875_INT 3
